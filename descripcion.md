@@ -8,7 +8,7 @@ compatibilidad con caracteres especiales; <meta name="viewport" content="..."> p
 
 adaptándose a diferentes dispositivos; <title> define el título que aparece en la pestaña del navegador, y 
 
-<link rel="stylesheet" href="css/stylesheet.css"> enlaza un archivo externo de estilos CSS para el diseño visual.
+<!--link rel="stylesheet" href="css/stylesheet.css"--> enlaza un archivo externo de estilos CSS para el diseño visual.
 
 En el <body> se encuentra el contenido visible. La etiqueta <header> contiene un encabezado principal con un título <h1>
 
@@ -22,9 +22,9 @@ La sección principal de la página está dentro de <main> y se divide en dos pa
 
 en línea. La segunda parte, <section id="login" class="login-caja">, presenta un formulario de inicio de sesión 
 
-<form action="/login" method="POST"> que envía datos al servidor. Este formulario incluye campos de entrada <input> con 
+<form action="/login" method="POST"> que envía datos al servidor. Este formulario incluye campos de entrada <!--input-->
 
-etiquetas <label>: uno para el correo electrónico (type="email") y otro para la contraseña (type="password") marcados 
+con etiquetas <label>: uno para el correo electrónico (type="email") y otro para la contraseña (type="password") marcados 
 
 como obligatorios con el atributo required. También incluye un botón de envío (type="submit") y un enlace <a> a la 
 
@@ -40,9 +40,7 @@ Este código HTML amplía una página web con una sección dedicada a "Artículo
 
 principal definido con <h1> que introduce el contenido principal de esta página. A continuación, se utiliza un contenedor
 
-<div> con la clase container que agrupa varios artículos individuales, cada uno representado por un <article> con la 
-
-clase article-card.
+<div> con la clase container que agrupa varios artículos individuales, cada uno representado por un <article> con la clase article-card.
 
 Dentro de cada artículo, se incluye una imagen (<img>) con el atributo src que define la ruta de la imagen del producto
 
